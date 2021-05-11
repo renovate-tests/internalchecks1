@@ -9,6 +9,7 @@
     ":prNotPending",
     ":dependencyDashboard"
   ],
+  "prHourlyLimit": 0,
   "stabilityDays": 3,
   "enabledManagers": ["npm", "nvm"],
   "node": {
