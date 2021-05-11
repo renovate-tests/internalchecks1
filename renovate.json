@@ -5,7 +5,7 @@
     ":rebaseStalePrs",
     ":dependencyDashboard"
   ],
-  "internalChecksFilter": "strict",
+  "internalChecksFilter": "flexible",
   "prHourlyLimit": 0,
   "stabilityDays": 13,
   "enabledManagers": ["npm", "nvm"],
