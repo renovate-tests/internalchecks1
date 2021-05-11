@@ -6,6 +6,7 @@
     ":prNotPending",
     ":dependencyDashboard"
   ],
+  "internalChecksFilter": "strict",
   "prHourlyLimit": 0,
   "stabilityDays": 10,
   "enabledManagers": ["npm", "nvm"],
