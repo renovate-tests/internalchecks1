@@ -3,7 +3,6 @@
     "config:base",
     "group:linters",
     ":rebaseStalePrs",
-    ":prNotPending",
     ":dependencyDashboard"
   ],
   "internalChecksFilter": "strict",
