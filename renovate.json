@@ -2,15 +2,12 @@
   "extends": [
     "config:base",
     "group:linters",
-    "schedule:weekly",
-    ":automergePatch",
     ":rebaseStalePrs",
-    ":noUnscheduledUpdates",
     ":prNotPending",
     ":dependencyDashboard"
   ],
   "prHourlyLimit": 0,
-  "stabilityDays": 3,
+  "stabilityDays": 10,
   "enabledManagers": ["npm", "nvm"],
   "node": {
     "supportPolicy": ["lts_latest"],
