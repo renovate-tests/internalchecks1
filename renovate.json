@@ -19,16 +19,8 @@
   "ignorePaths": ["**/node_modules/**", "**/Pods/**"],
   "packageRules": [
     {
-      "groupName": ["dependencies"],
-      "depTypeList": ["dependencies"],
-      "updateTypes": ["patch"],
-      "automerge": true
-    },
-    {
-      "groupName": ["devDependencies"],
-      "depTypeList": ["devDependencies"],
-      "updateTypes": ["minor", "patch"],
-      "automerge": true
+      "groupName": "dependencies",
+      "depTypeList": ["dependencies"]
     }
   ]
 }
