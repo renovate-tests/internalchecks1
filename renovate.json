@@ -8,7 +8,7 @@
   ],
   "internalChecksFilter": "strict",
   "prHourlyLimit": 0,
-  "stabilityDays": 10,
+  "stabilityDays": 7,
   "enabledManagers": ["npm", "nvm"],
   "node": {
     "supportPolicy": ["lts_latest"],
